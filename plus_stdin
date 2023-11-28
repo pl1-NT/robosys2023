@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 import sys
 
+def tonum(s):
+    try:
+        return int(s)
+    except:
+        return float(s)
 cal=0
 for i in sys.stdin:
-    try:
-        cal+=int(i)
-    except:
-        cal+=float(i)
-    
+    ans+=tonum(i)
+
 print(cal)
