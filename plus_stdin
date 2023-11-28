@@ -3,6 +3,9 @@ import sys
 
 cal=0
 for i in sys.stdin:
-    cal+=float(i)
+    try:
+        cal+=int(i)
+    except:
+        cal+=float(i)
     
 print(cal)
