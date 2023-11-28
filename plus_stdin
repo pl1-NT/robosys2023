@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Touki Nishi
+# SPDX-License-Identifier: BSD-3-Clause
 import sys
 
 def tonum(s):
@@ -8,6 +10,6 @@ def tonum(s):
         return float(s)
 cal=0
 for i in sys.stdin:
-    i=line.rstrip()
-    ans+=tonum(i)
+    i=i.rstrip()
+    cal+=tonum(i)
 print(cal)
