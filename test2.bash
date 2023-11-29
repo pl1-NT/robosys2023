@@ -1,4 +1,7 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2023 Touki Nishi
+# SPDX-License-Identifier: BSD-3-Clause
+
 er(){
 	echo at LINE $1
 	res=1	
