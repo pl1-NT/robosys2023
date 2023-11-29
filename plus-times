@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Touki Nishi
+# SPDX-License-Identifier: BSD-3-Clause
+import sys
+
+def tonum(s):
+    try:
+        return int(s)
+    except:
+        return float(s)
+pls=0
+ast=1
+for i in sys.stdin:
+    i=i.rstrip()
+    pls+=tonum(i)
+    ast*=tonum(i)
+
+print("総和:"+ str(pls))
+print("相乗:"+ str(ast))
