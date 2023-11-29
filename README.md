@@ -5,8 +5,8 @@
 
 # requiment
 * Python3 (テスト済み：3.7, 3.8, 3.9, 3.10)
-* ubuntu 20.04
- 　　
+## test environment
+* ubuntu  　　
 # install
 `git clone git@github.com:pl1-NT/robosys2023.git`
 
@@ -16,7 +16,7 @@ cd robosys2023
 chmod +x plus-times-avg
 seq 24 | ./plus-times-avg
 ```
-# result
+## result
 ```
 300
 620448401733239439360000
