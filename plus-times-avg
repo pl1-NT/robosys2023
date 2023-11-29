@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Touki Nishi
+# SPDX-License-Identifier: BSD-3-Clause
+import sys
+
+def tonum(s):
+    try:
+        return int(s)
+    except:
+        return float(s)
+pls=0
+ast=1
+cnt=0
+avg=0
+con=[]
+for i in sys.stdin:
+    i=i.rstrip()
+    cnt+=1
+    pls+=tonum(i)
+    ast*=tonum(i)
+avg=pls/cnt
+
+print(pls)
+print(ast)
+print(avg)
