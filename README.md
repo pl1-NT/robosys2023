@@ -8,14 +8,20 @@
 * ubuntu 20.04
  　　
 # install
-'git clone git@github.com:pl1-NT/robosys2023.git'
+`git clone git@github.com:pl1-NT/robosys2023.git`
 
 # usage example
-'''
+```
 cd robosys2023
 chmod +x plus-times-avg
 seq 24 | ./plus-times-avg
-'''
+```
+# result
+```
+300
+620448401733239439360000
+12.5
+```
 # Lisence
 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます
